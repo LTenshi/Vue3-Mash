@@ -1,0 +1,30 @@
+@import './base.css';
+@import 'tailwindcss';
+
+@layer base {
+  h1 {
+    font-size: var(--text-3xl);
+  }
+  h2 {
+    font-size: var(--text-2xl);
+  }
+  h3 {
+    font-size: var(--text-xl);
+  }
+  h4 {
+    font-size: var(--text-md);
+  }
+  h5 {
+    font-size: var(--text-sm);
+  }
+  h6 {
+    font-size: var(--text-xs);
+    filter: brightness(75%);
+  }
+}
+
+#app {
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
